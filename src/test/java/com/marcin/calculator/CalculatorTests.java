@@ -61,7 +61,7 @@ public class CalculatorTests {
     @Test
     void mainNo_File_Founded(){
         //given
-        String[] args = {"src/test/resources/package_scripts"};
+        String[] args = {"src/test/resources/"};
         //when
         //then
         assertThrows(IllegalStateException.class, () -> Calculator.main(args));
