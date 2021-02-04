@@ -1,4 +1,4 @@
-package com.marcin.calculator.model;
+package com.marcin.calculator.data;
 
 /**
  * Object <code>Pair</code> represent pair of two generic types
@@ -6,7 +6,7 @@ package com.marcin.calculator.model;
  * @version 1.0
  */
 
-public class Pair<L, R>{
+public class Pair<L, R> {
     private R right;
     private L left;
 

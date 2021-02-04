@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="608470a5-f714-48ba-a242-ac225dbdaaa0" name="Default Changelist" comment="" />
+    <list default="true" id="608470a5-f714-48ba-a242-ac225dbdaaa0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/170af52f38787d5bef9a3e26807f90abd8f28a64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6849cb67eed42bffd9b8039d37159a7cc005a626" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instructions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/calculator/model/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/calculator/data/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/marcin/calculator/CalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/marcin/calculator/CalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/marcin/calculator/Calculator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/marcin/calculator/Calculator$Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/marcin/calculator/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/marcin/calculator/models/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/marcin/calculator/CalculatorTests.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -27,35 +42,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/marcin/calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="105">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/instructions.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marcin/calculator/data/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marcin/calculator/model/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +75,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/marcin/calculator/CalculatorTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="69">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,6 +112,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -120,8 +128,11 @@
         <option value="$PROJECT_DIR$/src/main/java/org/marcin/calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcin/calculator/models/Pair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marcin/calculator/Calculator.java" />
         <option value="$PROJECT_DIR$/instructions.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marcin/calculator/model/Pair.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/marcin/calculator/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/marcin/calculator/CalculatorTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marcin/calculator/Calculator.java" />
       </list>
     </option>
   </component>
@@ -136,6 +147,7 @@
     <option name="width" value="1024" />
     <option name="height" value="569" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -181,7 +193,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
@@ -201,17 +213,26 @@
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -221,6 +242,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.marcin.calculator" />
       <recent name="org.marcin.calculator" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -239,14 +261,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTests">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.marcin.calculator.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.marcin.calculator.Calculator" />
       <module name="calculator" />
-      <option name="PROGRAM_PARAMETERS" value="instructions.txt" />
+      <option name="PROGRAM_PARAMETERS" value="src/test/resources/script_three.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.marcin.calculator.*" />
+          <option name="PATTERN" value="com.marcin.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,64 +276,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.marcin.calculator.*" />
+          <option name="PATTERN" value="com.marcin.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.marcin.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.marcin.calculator.CalculatorTests" />
+      <option name="PACKAGE_NAME" value="com.marcin.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.marcin.calculator.CalculatorTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTests.executeInstructions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTests.mainNo_File_Founded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.marcin.calculator.*" />
+          <option name="PATTERN" value="com.marcin.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.marcin.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.marcin.calculator.CalculatorTests" />
-      <option name="METHOD_NAME" value="executeInstructions" />
+      <option name="PACKAGE_NAME" value="com.marcin.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.marcin.calculator.CalculatorTests" />
+      <option name="METHOD_NAME" value="mainNo_File_Founded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTests.executeInstructions_With_Empty_Instructions_List" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTests.mainNo_File_Name_inputed_As_A_Parametr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.marcin.calculator.*" />
+          <option name="PATTERN" value="com.marcin.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.marcin.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.marcin.calculator.CalculatorTests" />
-      <option name="METHOD_NAME" value="executeInstructions_With_Empty_Instructions_List" />
+      <option name="PACKAGE_NAME" value="com.marcin.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.marcin.calculator.CalculatorTests" />
+      <option name="METHOD_NAME" value="mainNo_File_Name_inputed_As_A_Parametr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTests.getInstructionsFromFile_Checking_Size_Of_List" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTests.mainNo_File_Name_inputted_As_A_Parameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.marcin.calculator.*" />
+          <option name="PATTERN" value="com.marcin.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.marcin.calculator" />
-      <option name="MAIN_CLASS_NAME" value="org.marcin.calculator.CalculatorTests" />
-      <option name="METHOD_NAME" value="getInstructionsFromFile_Checking_Size_Of_List" />
+      <option name="PACKAGE_NAME" value="com.marcin.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.marcin.calculator.CalculatorTests" />
+      <option name="METHOD_NAME" value="mainNo_File_Name_inputted_As_A_Parameter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -319,18 +341,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Calculator" />
-      <item itemvalue="JUnit.CalculatorTests" />
-      <item itemvalue="JUnit.CalculatorTests.executeInstructions" />
-      <item itemvalue="JUnit.CalculatorTests.executeInstructions_With_Empty_Instructions_List" />
-      <item itemvalue="JUnit.CalculatorTests.getInstructionsFromFile_Checking_Size_Of_List" />
+      <item itemvalue="JUnit.CalculatorTests (1)" />
+      <item itemvalue="JUnit.CalculatorTests.mainNo_File_Name_inputed_As_A_Parametr" />
+      <item itemvalue="JUnit.CalculatorTests.mainNo_File_Name_inputted_As_A_Parameter" />
+      <item itemvalue="JUnit.CalculatorTests.mainNo_File_Founded" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTests" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="JUnit.CalculatorTests.executeInstructions_With_Empty_Instructions_List" />
-        <item itemvalue="JUnit.CalculatorTests.executeInstructions" />
-        <item itemvalue="JUnit.CalculatorTests.getInstructionsFromFile_Checking_Size_Of_List" />
+        <item itemvalue="JUnit.CalculatorTests.mainNo_File_Founded" />
+        <item itemvalue="JUnit.CalculatorTests.mainNo_File_Name_inputted_As_A_Parameter" />
+        <item itemvalue="JUnit.CalculatorTests.mainNo_File_Name_inputed_As_A_Parametr" />
+        <item itemvalue="JUnit.CalculatorTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -348,42 +370,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTests - 2021.02.03 at 20h 51m 37s.xml">
-      <configuration name="CalculatorTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_(1) - 2021.02.03 at 21h 59m 53s.xml">
+      <configuration name="CalculatorTests (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests_getInstructionsFromFile_Checking_Size_Of_List - 2021.02.03 at 20h 55m 00s.xml">
-      <configuration name="CalculatorTests.getInstructionsFromFile_Checking_Size_Of_List" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_(1) - 2021.02.03 at 22h 00m 35s.xml">
+      <configuration name="CalculatorTests (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests_getInstructionsFromFile_Checking_Size_Of_List - 2021.02.03 at 20h 57m 02s.xml">
-      <configuration name="CalculatorTests.getInstructionsFromFile_Checking_Size_Of_List" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Name_inputed_As_A_Parametr - 2021.02.04 at 12h 36m 22s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Name_inputed_As_A_Parametr" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests_executeInstructions - 2021.02.03 at 20h 59m 21s.xml">
-      <configuration name="CalculatorTests.executeInstructions" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Name_inputed_As_A_Parametr - 2021.02.04 at 12h 49m 17s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Name_inputed_As_A_Parametr" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests - 2021.02.03 at 20h 59m 28s.xml">
-      <configuration name="CalculatorTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Name_inputed_As_A_Parametr - 2021.02.04 at 12h 51m 35s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Name_inputed_As_A_Parametr" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests - 2021.02.03 at 21h 03m 35s.xml">
-      <configuration name="CalculatorTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Name_inputted_As_A_Parameter - 2021.02.04 at 12h 52m 29s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Name_inputted_As_A_Parameter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests_executeInstructions_With_Empty_Instructions_List - 2021.02.03 at 21h 04m 15s.xml">
-      <configuration name="CalculatorTests.executeInstructions_With_Empty_Instructions_List" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Founded - 2021.02.04 at 12h 52m 32s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Founded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests - 2021.02.03 at 21h 19m 01s.xml">
-      <configuration name="CalculatorTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Founded - 2021.02.04 at 12h 53m 41s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Founded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests - 2021.02.03 at 21h 20m 07s.xml">
-      <configuration name="CalculatorTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Founded - 2021.02.04 at 12h 55m 50s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Founded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTests - 2021.02.03 at 21h 29m 59s.xml">
-      <configuration name="CalculatorTests" configurationId="JUnit" />
+    <history-entry file="CalculatorTests_mainNo_File_Founded - 2021.02.04 at 12h 56m 07s.xml">
+      <configuration name="CalculatorTests.mainNo_File_Founded" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="833" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25289574" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -392,18 +414,18 @@
       <window_info id="Job Explorer" order="6" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3275862" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32902297" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09913793" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.077809796" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="SonarLint" order="7" weight="0.04310345" />
+      <window_info anchor="bottom" id="SonarLint" order="7" weight="0.2334294" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3275862" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,10 +438,27 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/script_three" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/marcin/calculator/CalculatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/instructions.txt" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/script_one.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/script_three.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -430,17 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/script_three">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/script_three.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/marcin/calculator/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/marcin/calculator/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
@@ -449,46 +478,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/marcin/calculator/CalculatorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instructions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcin/calculator/model/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="69">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
           <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcin/calculator/data/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marcin/calculator/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="105">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>

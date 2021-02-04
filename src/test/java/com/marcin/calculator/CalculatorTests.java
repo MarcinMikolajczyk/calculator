@@ -1,12 +1,13 @@
 package com.marcin.calculator;
 
-import com.marcin.calculator.model.Pair;
+import com.marcin.calculator.data.Pair;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
@@ -48,6 +49,25 @@ public class CalculatorTests {
         //then
         assertEquals(3, instructionsList.size());
     }
+
+    @Test
+    void mainNo_File_Name_inputted_As_A_Parameter(){
+        //given
+        String[] args = {};
+        //when
+        //then
+        assertThrows(IllegalStateException.class, () -> Calculator.main(args));
+    }
+
+    @Test
+    void mainNo_File_Founded(){
+        //given
+        String[] args = {"src/test/resources/package_scripts"};
+        //when
+        //then
+        assertThrows(IllegalStateException.class, () -> Calculator.main(args));
+    }
+
 
     private static Stream<Arguments> dataWithScriptsToExecute(){
         return Stream.of(
